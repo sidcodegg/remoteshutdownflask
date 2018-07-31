@@ -1,4 +1,4 @@
-from flask import *
+from flask import Flask,render_template
 import os
 app = Flask(__name__)
 @app.route("/", methods=["GET"])
@@ -9,7 +9,5 @@ def init():
 def shutdown():
 	os.system('shutdown -s')
 	return render_template("done.html")
-	
-	
 
 app.run(debug=True)
