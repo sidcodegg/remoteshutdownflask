@@ -5,14 +5,14 @@ Dependencies:
 
 Python 3.5, Flask.
 
+Launch web app on localhost:
+```
+$python remoteshutdown.py 
+```
 
-
-How it works(How to make it work):
-
-python remoteshutdown.py will launch a web app on localhost 
-
-
-launch a different terminal in same environment 
-
-run python tunnel.py to create servo tunnel to your localhost(default set as localhost:5000)
+Create servo tunnel to your localhost(default set as localhost:5000)
+```
+$python tunnel.py 
+```
+ 
 
